@@ -49,13 +49,13 @@ i.	Por fim, o código fecha a conexão com o banco de dados.
 4 CONCLUSÃO
 
 O sistema completo ficou assim:
-![image](https://github.com/icarograciano/crud_com_php_cad_user/assets/70548062/cf5ea865-76b7-4240-b8d2-59ecfe10fb38)
-![image](https://github.com/icarograciano/crud_com_php_cad_user/assets/70548062/09727402-aa9d-4057-836f-030453963528)
-![image](https://github.com/icarograciano/crud_com_php_cad_user/assets/70548062/ad9417e3-479b-4785-972b-534259413224)
-![image](https://github.com/icarograciano/crud_com_php_cad_user/assets/70548062/0a25d89d-bd4f-4a99-bda3-63bca98278c6)
-![image](https://github.com/icarograciano/crud_com_php_cad_user/assets/70548062/8e4b9ede-64b9-425a-ae57-240dae4b7da8)
-![image](https://github.com/icarograciano/crud_com_php_cad_user/assets/70548062/16851134-4e84-4d03-970f-50e2fcba9f70)
-![image](https://github.com/icarograciano/crud_com_php_cad_user/assets/70548062/0f7fcba1-81ab-4aeb-8fa2-a33699e140b1)
+![image](https://github.com/icarograciano/cadastro-simplificado/assets/70548062/bde637dc-a04e-4b69-b1f4-6d6c7da52128)
+![image](https://github.com/icarograciano/cadastro-simplificado/assets/70548062/35e5004c-78d9-49e4-a2f0-762dc618fab1)
+![image](https://github.com/icarograciano/cadastro-simplificado/assets/70548062/65e0be37-0d89-472c-96d3-3050d8a23cbd)
+![image](https://github.com/icarograciano/cadastro-simplificado/assets/70548062/e86b78a6-dcba-45be-bc9f-367de69c7a2a)
+![image](https://github.com/icarograciano/cadastro-simplificado/assets/70548062/ec74c2c4-a927-4bfb-aaa2-9840d51b1b18)
+![image](https://github.com/icarograciano/cadastro-simplificado/assets/70548062/62b38387-d6d3-44c3-89e6-397491fa72cb)
+
 
  5 AUTOR
  
