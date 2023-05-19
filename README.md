@@ -27,13 +27,21 @@ No geral, essa página combina HTML, CSS, PHP e JavaScript para criar uma interf
 5º - Criei o código do arquivo “crud.php” que contém o back-end da aplicação. Este código é o arquivo PHP responsável por processar as ações relacionadas ao CRUD (Create, Read, Update, Delete) em um banco de dados MySQL. Abaixo, como o arquivo foi estruturado:
 
 a.	Primeiro, o arquivo inclui o arquivo de conexão com o banco de dados (conexao.php) para estabelecer a conexão com o MySQL;
+
 b.	Em seguida, é configurado o relatório de erros do MySQLI para lançar exceções em caso de erros;
+
 c.	O código verifica a ação a ser executada com base nos parâmetros passados na URL ($_GET['acao']);
+
 d.	Se a ação for "insert" e o botão de envio do formulário ($_POST['submit']) for pressionado, o código processa o formulário de inserção. Ele recupera os valores dos campos do formulário (nome, senha e email), executa uma consulta SQL para inserir os dados na tabela "cad_usuario" e exibe uma mensagem de sucesso ou erro;
+
 e.	Se a ação for "update" e o botão de envio do formulário for pressionado, o código processa o formulário de atualização. Ele recupera os valores dos campos do formulário, executa uma consulta SQL para atualizar os dados na tabela "cad_usuario" com base no nome fornecido e exibe uma mensagem de sucesso ou erro;
+
 f.	Tanto no Insert como no Update, a senha é criptografada usando a função password_hash() com o algoritmo bcrypt;
+
 g.	Se a ação for "delete" e o parâmetro "id" estiver presente na URL, o código processa a exclusão do registro. Ele recupera o valor do parâmetro "id", executa uma consulta SQL para excluir o registro correspondente na tabela "cad_usuario" e exibe uma mensagem de sucesso ou erro;
+
 h.	O código trata exceções lançadas pelo MySQLi, caso ocorram erros durante as consultas ao banco de dados, exibindo uma mensagem de erro apropriada;
+
 i.	Por fim, o código fecha a conexão com o banco de dados.
 
 6º - Criei o código do arquivo “get_registro.php” que recebe um parâmetro "id" através da URL e retorna os dados de um registro específico da tabela "cad_usuario" em formato JSON. Ele é utilizado em conjunto com JavaScript para fazer requisições assíncronas ao servidor e obter os dados de um registro específico para preencher o formulário de edição.
